@@ -75,8 +75,7 @@ database:
 # Evaluator Configuration
 evaluator:
   timeout: 900  # 15 minutes total timeout for evaluation
-  cascade_evaluation: true
-  cascade_thresholds: [0.3, 0.6]  # Lower thresholds since this is harder
+  cascade_evaluation: false  # Not using cascade evaluation for this example
   enable_artifacts: true
 
 # Evolution Trace (optional - for analysis)
